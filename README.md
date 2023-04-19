@@ -1,6 +1,8 @@
 # readonly-wire-bridge
 Wire to Matrix bridge, but readonly on Matrix
 
+🚨 This is a work in progress.
+
 ## Building
 
 ```bash
