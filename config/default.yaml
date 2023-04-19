@@ -1,0 +1,31 @@
+##########################################
+##  THIS CONFIG IS SENSITIVE            ##
+##  Do not share it with anyone         ##
+##########################################
+
+# Matrix side configuration
+matrix:
+  # Client-Server API URL for your Homeserver
+  csUrl: "https://matrix-client-matrix.org"
+
+  # Appservice token (generate this)
+  asToken: "CHANGE_ME"
+
+  # Homeserver token (generate this)
+  hsToken: "CHANGE_ME"
+
+  # Appservice API stuff
+  bindAddress: "0.0.0.0"
+  bindPort: 9000
+
+  # The user ID to invite to all created rooms (should be the same person as the Wire details below)
+  inviteUserId: "@you:example.org"
+
+# Bridge operation config
+bridge:
+  # Path to where to keep files (like encryption, etc)
+  storagePath: "./storage"
+
+wire:
+  email: "alice@example.org"
+  password: "This is super insecure and this project should know better, sorry. Do not share your config with anyone."

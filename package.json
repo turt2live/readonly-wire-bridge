@@ -1,0 +1,30 @@
+{
+  "name": "readonly-wire-bridge",
+  "version": "1.0.0",
+  "description": "Readonly Wire to Matrix bridge",
+  "main": "lib/index.js",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run-script build && node ./lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turt2live/readonly-wire-bridge.git"
+  },
+  "author": "Travis Ralston",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/turt2live/readonly-wire-bridge/issues"
+  },
+  "homepage": "https://github.com/turt2live/readonly-wire-bridge#readme",
+  "dependencies": {
+    "config": "^3.3.9",
+    "js-yaml": "^4.1.0",
+    "matrix-bot-sdk": "^0.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.4"
+  }
+}
