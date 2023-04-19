@@ -1,4 +1,4 @@
-FROM node:19
+FROM node:18
 COPY . /app
 WORKDIR /app
 RUN npm i && npm run-script build
