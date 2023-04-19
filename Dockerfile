@@ -1,5 +1,5 @@
 FROM node:19
-COPY src /app
+COPY . /app
 WORKDIR /app
 RUN npm i && npm run-script build
 VOLUME /app/config
