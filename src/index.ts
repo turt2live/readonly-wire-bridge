@@ -25,7 +25,7 @@ const credentials: LoginData = {
 
     LogService.info("index", `Logging in to Wire with ${credentials.email}`);
     // const wireApi = new APIClient();
-    const wireAcc = new Account(new APIClient(), {createStore: () => Promise.resolve(wireStore)});
+    const wireAcc = new Account(undefined, {createStore: () => Promise.resolve(wireStore)});
     // wireApi.on(APIClient.TOPIC.ACCESS_TOKEN_REFRESH, async (accessToken: AccessTokenData) => {
     //     await wireStore.updateOrCreate(AUTH_TABLE_NAME, AUTH_ACCESS_TOKEN_KEY, accessToken);
     //     LogService.debug("index#wireOnTokenRefresh", "Access token saved");

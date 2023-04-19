@@ -20,7 +20,7 @@
   "homepage": "https://github.com/turt2live/readonly-wire-bridge#readme",
   "dependencies": {
     "@wireapp/api-client": "^24.3.2",
-    "@wireapp/core": "=40.1.3",
+    "@wireapp/core": "^40.1.8",
     "@wireapp/core-crypto": "^0.7.0",
     "@wireapp/store-engine": "^5.0.3",
     "@wireapp/store-engine-fs": "^3.0.4",
